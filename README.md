@@ -21,4 +21,4 @@ For this embedded system, I implemented a layered software architecture that con
 ### - HAL
   This layer includes drivers for all the hardware components used in the system, making it easier to interface with the hardware and abstracting away low-level details.
 ### - MCAL
-   This layer contains drivers for the microcontroller entities themselves, providing a standardized interface for the upper layers of the software stack to interact with the microcontroller hardware."
+   This layer contains drivers for the microcontroller entities themselves, providing a standardized interface for the upper layers of the software stack to interact with the microcontroller hardware.
