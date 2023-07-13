@@ -2,6 +2,8 @@
 Here I developed a door lock security system as part of my work on embedded systems. The system employs two ATmega32 microcontrollers, one acting as a human interface and the other for control. 
 
 To design and test the system, I created a system schematic using Proteus software. 
+
+
 Here's a view of the system schematic:
 ![Proteus Simulation](https://github.com/SublimeAdel/ES_DLSS/blob/main/Proteus%20Simulation.jpeg "Proteus Simulation")
 
@@ -12,7 +14,7 @@ The second microcontroller serves as the control unit, with several key componen
 
 For this embedded system, I implemented a layered software architecture that consists of three distinct layers. To keep the code organized and modular, I created a separate folder for each microcontroller unit (MCU), and included the corresponding layer of the software architecture in each folder. 
 
-The three layers of the software architecture are as follows:
+### The three layers of the software architecture are as follows:
 
 ### - APP
   This layer contains the main application logic that governs the behavior of the entire system.
